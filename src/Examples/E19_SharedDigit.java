@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E19_SharedDigit {
     public static void main(String[] args) {

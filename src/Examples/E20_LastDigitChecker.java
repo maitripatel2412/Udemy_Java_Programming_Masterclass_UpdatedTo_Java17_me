@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E20_LastDigitChecker {
     public static void main(String[] args) {

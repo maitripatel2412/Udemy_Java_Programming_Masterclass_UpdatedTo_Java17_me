@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E17_FirstLastDigitSum {
     public static void main(String[] args) {

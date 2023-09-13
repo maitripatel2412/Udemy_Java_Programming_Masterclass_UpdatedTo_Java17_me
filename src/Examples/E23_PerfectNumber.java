@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E23_PerfectNumber {
     public static void main(String[] args) {

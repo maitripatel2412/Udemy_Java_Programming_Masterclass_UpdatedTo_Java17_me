@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E18_EvenDigitSum {
     public static void main(String[] args) {

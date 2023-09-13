@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E12_PlayingCat {
     public static void main(String[] args) {

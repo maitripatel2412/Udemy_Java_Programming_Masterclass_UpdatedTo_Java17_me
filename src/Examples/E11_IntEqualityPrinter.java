@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E11_IntEqualityPrinter {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E24_NumberToWords {
     public static void main(String[] args) {

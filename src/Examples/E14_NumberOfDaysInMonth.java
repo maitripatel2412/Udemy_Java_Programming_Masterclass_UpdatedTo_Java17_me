@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E14_NumberOfDaysInMonth {
     public static void main(String[] args) {

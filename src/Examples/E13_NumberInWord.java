@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E13_NumberInWord {
     public static void main(String[] args) {

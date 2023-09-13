@@ -1,3 +1,5 @@
+package Section_1_To_6;
+
 public class SwitchStatement2 {
 
     public static void main(String[] args) {

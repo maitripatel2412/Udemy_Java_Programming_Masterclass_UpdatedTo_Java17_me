@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E10_MinutesToYearsDaysCalculator {
     public static void main(String[] args) {

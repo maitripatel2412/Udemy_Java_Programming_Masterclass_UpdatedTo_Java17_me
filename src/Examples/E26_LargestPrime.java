@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E26_LargestPrime {
     public static void main(String[] args) {

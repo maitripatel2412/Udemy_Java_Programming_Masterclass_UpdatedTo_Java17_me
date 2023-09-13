@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E15_SumOddRange {
     public static void main(String[] args) {

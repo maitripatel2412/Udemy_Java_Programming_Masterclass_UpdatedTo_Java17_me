@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E25_FlourPacker {
     public static void main(String[] args) {

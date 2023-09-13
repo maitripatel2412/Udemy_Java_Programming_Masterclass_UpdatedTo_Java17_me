@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E9_AreaCalculator {
     public static void main(String[] args) {

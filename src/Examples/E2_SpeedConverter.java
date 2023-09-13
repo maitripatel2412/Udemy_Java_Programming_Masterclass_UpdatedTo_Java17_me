@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E2_SpeedConverter {
 

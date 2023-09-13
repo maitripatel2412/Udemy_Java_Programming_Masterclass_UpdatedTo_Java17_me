@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E21_FactorPrinter {
     public static void main(String[] args) {

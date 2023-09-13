@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E5_LeapYear {
     public static void main(String[] args) {

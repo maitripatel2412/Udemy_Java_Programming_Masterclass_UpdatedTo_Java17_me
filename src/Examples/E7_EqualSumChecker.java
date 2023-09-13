@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E7_EqualSumChecker {
     public static void main(String[] args) {

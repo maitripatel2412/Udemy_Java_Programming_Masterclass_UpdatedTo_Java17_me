@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E16_NumberPalindrome {
     public static void main(String[] args) {

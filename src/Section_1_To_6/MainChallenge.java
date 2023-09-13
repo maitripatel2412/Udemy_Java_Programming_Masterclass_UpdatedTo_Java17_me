@@ -1,3 +1,5 @@
+package Section_1_To_6;
+
 public class MainChallenge {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E22_GreatestCommonDivisor {
     public static void main(String[] args) {

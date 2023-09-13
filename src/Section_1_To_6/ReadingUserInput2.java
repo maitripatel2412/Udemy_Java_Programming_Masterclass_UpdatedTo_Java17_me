@@ -1,3 +1,5 @@
+package Section_1_To_6;
+
 import java.util.Scanner;
 
 public class ReadingUserInput2 {

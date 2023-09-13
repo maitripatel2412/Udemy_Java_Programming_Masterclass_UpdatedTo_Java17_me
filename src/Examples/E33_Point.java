@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E33_Point {
 

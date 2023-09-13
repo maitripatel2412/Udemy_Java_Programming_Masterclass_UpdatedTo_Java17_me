@@ -1,4 +1,4 @@
-package Exercises;
+package Examples;
 
 public class E6_DecimalComparator {
     public static void main(String[] args) {
