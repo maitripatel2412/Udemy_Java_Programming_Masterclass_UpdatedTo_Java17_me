@@ -3,8 +3,7 @@ package Section_14;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BinaryOperator;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 class PlainOld{
 
@@ -32,11 +31,34 @@ public class MethodReferences {
 
         System.out.println("getting array");
         PlainOld[] pojo1 = seedArray(PlainOld::new,10);
+
+        calculator((s1,s2) -> s1.concat(s2),"maitri ","patel");
+        calculator(String::concat,"maitri ","patel");
+
+        BinaryOperator<String> b1 = String::concat;
+        BiFunction<String,String,String> b2 = String::concat;
+        UnaryOperator<String> u1 = String::toUpperCase;
+
+        System.out.println(b1.apply("hello ","world"));
+        System.out.println(b2.apply("Hello ","World"));
+        System.out.println(u1.apply("hello"));
+
+        String result = "hello".transform(u1);
+        System.out.println("result = "+result);
+
+        result = result.transform(String::toLowerCase);
+        System.out.println("result = "+result);
+
+        Function<String,Boolean> f0 = String::isEmpty;
+        boolean resultBoolean = result.transform(f0);
+        System.out.println("result = "+resultBoolean);
+
+
     }
     private static <T> void calculator(BinaryOperator<T> function, T value1, T value2){
 
         T result = function.apply(value1,value2);
-        System.out.println("result of operation"+result);
+        System.out.println("result of operation : "+result);
     }
 
     private static PlainOld[] seedArray (Supplier<PlainOld> reference, int count){
